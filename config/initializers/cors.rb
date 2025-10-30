@@ -6,14 +6,13 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
             'http://localhost:5174',
             'http://localhost:5175',
             'http://localhost:5176',
-            'bok-quiz.vercel.app',
+            'https://bok-quiz-front.vercel.app/',
             %r{\Ahttp://127\.0\.0\.1:\d+},
             %r{\Ahttp://192\.168\.\d+\.\d+(?::\d+)?},
             %r{\Ahttp://10\.\d+\.\d+\.\d+(?::\d+)?},
-            %r{\Ahttp://.*\.local(?::\d+)?},
-            'https://excess-seana-felix-glucode-0704cdd3.koyeb.app'
-    resource "/api/*", headers: :any, methods: [ :get, :post, :options ]
-    resource "/cable", headers: :any, methods: [ :get, :post, :options ]
+            %r{\Ahttp://.*\.local(?::\d+)?}
+    resource '/api/*', headers: :any, methods: %i[get post options]
+    resource '/cable', headers: :any, methods: %i[get post options]
   end
 end
 
@@ -33,6 +32,5 @@ end
 #       methods: [:get, :post, :put, :patch, :delete, :options, :head]
 #   end
 # end
-
 
 ### Remove duplicate default block
