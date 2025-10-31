@@ -51,15 +51,15 @@ rounds:
         points: 1
         time_limit: 20
 
-      - text: "What is the nickname for the New Zealand rugby team?"
+      - text: "What is the nickname for the Japanese rugby team?"
         options: ["Wallabies", "All Blacks", "Brave Blossoms", "Pumas"]
-        correct_index: 1
+        correct_index: 2
         points: 1
         time_limit: 20
 
-      - text: "Which year did South Africa first win the Rugby World Cup?"
+      - text: "Which year did South Africa win their second Rugby World Cup?"
         options: ["2007", "2011", "2003", "1995"]
-        correct_index: 3
+        correct_index: 0
         points: 1
         time_limit: 20
 
@@ -71,15 +71,15 @@ rounds:
         points: 1
         time_limit: 20
 
-      - text: "How many Rugby World Cups have the Springboks won as of 2023?"
-        options: ["3", "2", "5", "4"]
-        correct_index: 3
+      - text: "Who is the all-time leading try scorer for the Springboks?"
+        options: ["Bryan Habana", "Percy Montgomery", "Makazole Mapimpi", "JP Pietersen"]
+        correct_index: 0
         points: 1
         time_limit: 20
 
-      - text: "Which Springbok player is known as ‘The Beast’?"
-        options: ["Bakkies Botha", "Tendai Mtawarira", "Schalk Burger", "Bryan Habana"]
-        correct_index: 1
+      - text: "Who has the highest number of points scored for the Springboks, in a single test match?"
+        options: ["Percy Montgomery", "Handré Pollard", "Sacha-Feinberg Mgomezulu", "Morné Steyn"]
+        correct_index: 2
         points: 1
         time_limit: 20
 
@@ -89,8 +89,8 @@ rounds:
         points: 1
         time_limit: 20
 
-      - text: "What number jersey does a scrum-half usually wear in rugby?"
-        options: ["10", "7", "9", "12"]
+      - text: "What number jersey does an outside-center usually wear in rugby?"
+        options: ["12", "15", "14", "13"]
         correct_index: 2
         points: 1
         time_limit: 20
@@ -109,8 +109,8 @@ rounds:
         points: 1
         time_limit: 15
 
-      - text: "Which Springbok legend is known for his speed on the wing and scored 15 tries in World Cups?"
-        options: ["JP Pietersen", "Bryan Habana", "Percy Montgomery", "Makazole Mapimpi"]
+      - text: "Which Springbok said 'Salads don't win scrums'?"
+        options: ["Cheslin Kolbe", "Ox Nche", "Siya Kolisi", "Eben Etzebeth"]
         correct_index: 1
         points: 1
         time_limit: 15
@@ -118,7 +118,7 @@ rounds:
   - number: 5
     questions:
       - text: "In which stadium did South Africa beat New Zealand in the 2023 Rugby World Cup final?"
-        options: ["Twickenham", "Stade de France", "Ellis Park", "Eden Park"]
+        options: ["Twickenham", "Stade de France", "Stade Pierre Mauroy", "Eden Park"]
         correct_index: 1
         points: 1
         time_limit: 15
@@ -137,8 +137,8 @@ rounds:
 
   - number: 6
     questions:
-      - text: "Who was the first black captain of the Springboks?"
-        options: ["Cheslin Kolbe", "Siya Kolisi", "Tendai Mtawarira", "Lukhanyo Am"]
+      - text: "Who was the youngest debutant of the modern Springbok era?"
+        options: ["Ruan Pienaar", "Frans Steyn", "Tendai Mtawarira", "Canan Moodie"]
         correct_index: 1
         points: 1
         time_limit: 15

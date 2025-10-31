@@ -228,3 +228,4 @@ Migrating to AddSuddenDeathAttemptsToGames (20251015130827)
   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BokQuiz'*/[0m
   [1m[36mActiveRecord::SchemaMigration Load (9.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BokQuiz'*/[0m
   [1m[36mActiveRecord::SchemaMigration Load (10.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BokQuiz'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (29.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BokQuiz'*/[0m
